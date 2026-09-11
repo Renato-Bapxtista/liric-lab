@@ -1,0 +1,13 @@
+{
+  "idf.extensionActivationMode": "detect",
+  "idf.gitPath": "/usr/bin/git",
+  "idf.showOnboardingOnInit": false,
+  "idf.saveScope": 1,
+  "idf.espIdfPath": "/root/.espressif/v6.0.2/esp-idf",
+  "idf.toolsPath": "/root/.espressif/tools",
+  "idf.pythonBinPath": "/root/.espressif/tools/python/v6.0.2/venv/bin/python",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "board/esp32-wrover.cfg"
+  ]
+}

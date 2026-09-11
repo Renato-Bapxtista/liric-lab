@@ -31,6 +31,15 @@ npm run dev
 O backend ficara disponivel em `http://localhost:3001` e o frontend em `http://localhost:5173`.
 Para interromper os dois processos, pressione `Ctrl+C`.
 
+## Comandos uteis
+
+Execute os comandos a partir da pasta principal:
+
+```bash
+npm run build  # gera a versao de producao do frontend
+npm run lint   # verifica o codigo do frontend
+```
+
 ## Funcionalidades
 
 - Transcricao de videos do YouTube.
@@ -52,6 +61,21 @@ Recebe um link do YouTube e retorna o titulo e as frases transcritas:
 ```
 
 Cada frase retornada inclui o tempo em segundos, o texto original e a traducao.
+
+Exemplo de resposta:
+
+```json
+{
+  "title": "Titulo do video",
+  "lyrics": [
+    {
+      "time": 12,
+      "text": "Original sentence",
+      "translation": "Frase original"
+    }
+  ]
+}
+```
 
 ## Observacoes
 

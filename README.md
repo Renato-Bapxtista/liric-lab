@@ -14,35 +14,22 @@ Aplicacao web para transformar videos do YouTube em aulas interativas de ingles.
 
 ## Instalacao
 
-Instale as dependencias de cada parte do projeto:
+Instale as dependencias na pasta principal:
 
 ```bash
-cd lyric-lab
-npm install
-
-cd ../lyric-lab-backend
 npm install
 ```
 
 ## Como executar
 
-Em um terminal, inicie a API:
+Inicie o frontend e o backend juntos:
 
 ```bash
-cd lyric-lab-backend
-node src/server.js
-```
-
-A API ficara disponivel em `http://localhost:3001`.
-
-Em outro terminal, inicie o frontend:
-
-```bash
-cd lyric-lab
 npm run dev
 ```
 
-Abra o endereco exibido pelo Vite, normalmente `http://localhost:5173`.
+O backend ficara disponivel em `http://localhost:3001` e o frontend em `http://localhost:5173`.
+Para interromper os dois processos, pressione `Ctrl+C`.
 
 ## Funcionalidades
 

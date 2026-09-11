@@ -1,0 +1,12 @@
+{
+    "name": "lyric-lab-workspace",
+    "private": true,
+    "scripts": {
+        "dev": "concurrently --kill-others --names backend,frontend --prefix-colors blue,green \"npm --prefix lyric-lab-backend run dev\" \"npm --prefix lyric-lab run dev\"",
+        "build": "npm --prefix lyric-lab run build",
+        "lint": "npm --prefix lyric-lab run lint"
+    },
+    "devDependencies": {
+        "concurrently": "^9.2.1"
+    }
+}

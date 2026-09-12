@@ -66,7 +66,7 @@ app.post('/transcribe', async (req, res) => {
     }
 
     console.log(`2. Buscando transcrição oficial do YouTube...`);
-    const transcript = await YoutubeTranscript.fetchTranscript(videoId);
+    const transcript = await YoutubeTranscript.fetchTranscript(videoId, { lang: 'en' });
 
     console.log(`3. Traduzindo legendas para o Português...`);
 
